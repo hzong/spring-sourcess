@@ -1,20 +1,16 @@
-package org.springframework.demo.bean;
+package org.springframework.demo.circular_dependencies.bean;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 /**
- * @Classname A
+ * @Classname C
  * @Description TODO
- * @Date 2022/1/7 23:19
+ * @Date 2022/1/7 23:20
  * @Created by hzong
  */
 @Component
-public class A {
-	public A() {
-		System.out.println();
-	}
-
+public class C {
 	@Autowired
-	private B b;
+	private A a;
 }

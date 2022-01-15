@@ -1,10 +1,10 @@
-package org.springframework.demo.config;
+package org.springframework.demo.circular_dependencies.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.demo.bean.A;
-import org.springframework.demo.bean.B;
-import org.springframework.demo.bean.C;
+import org.springframework.demo.circular_dependencies.bean.A;
+import org.springframework.demo.circular_dependencies.bean.B;
+import org.springframework.demo.circular_dependencies.bean.C;
 
 /**
  * @Classname BeanConfig
